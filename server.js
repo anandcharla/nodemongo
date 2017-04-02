@@ -8,6 +8,7 @@ var router      =   express.Router();
 
 
 app.use(bodyParser.json());
+
 app.use(bodyParser.urlencoded({"extended" : false}));
 
 router.get("/",function(req,res){
